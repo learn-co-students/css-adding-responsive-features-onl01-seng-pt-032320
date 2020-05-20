@@ -56,19 +56,7 @@
             column-count: 1;
         }
 
-        .col-1 {
-            width: 100%;
-            margin-left: 0;
-            float: none;
-        }
-
-        .col-2 {
-            width: 100%;
-            margin-left: 0;
-            float: none;
-        }
-
-        .col-3 {
+        .col-1, .col-2, .col-3 {
             width: 100%;
             margin-left: 0;
             float: none;
@@ -76,6 +64,10 @@
 
         .border-right {
             border: 0;
+        }
+
+        #details div {
+            height: auto;
         }
 
     }
